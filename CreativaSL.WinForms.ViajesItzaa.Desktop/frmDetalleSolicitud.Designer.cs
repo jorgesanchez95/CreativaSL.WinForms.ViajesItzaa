@@ -921,10 +921,11 @@
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.MaximizeBox = true;
-            this.MinimumSize = new System.Drawing.Size(1280, 766);
+            this.MinimumSize = new System.Drawing.Size(1280, 736);
             this.Name = "frmDetalleSolicitud";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.Load += new System.EventHandler(this.frmDetalleSolicitud_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

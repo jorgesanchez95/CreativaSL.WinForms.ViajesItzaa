@@ -211,7 +211,7 @@
             this.dgv_Notas.ReadOnly = true;
             this.dgv_Notas.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgv_Notas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_Notas.Size = new System.Drawing.Size(1264, 651);
+            this.dgv_Notas.Size = new System.Drawing.Size(1264, 650);
             this.dgv_Notas.TabIndex = 0;
             // 
             // panel1
@@ -221,7 +221,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1264, 730);
+            this.panel1.Size = new System.Drawing.Size(1264, 729);
             this.panel1.TabIndex = 18;
             // 
             // panel4
@@ -230,7 +230,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 79);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1264, 651);
+            this.panel4.Size = new System.Drawing.Size(1264, 650);
             this.panel4.TabIndex = 2;
             // 
             // panel2
@@ -248,15 +248,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.ClientSize = new System.Drawing.Size(1264, 730);
+            this.ClientSize = new System.Drawing.Size(1264, 729);
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.MaximizeBox = true;
             this.MaximumSize = new System.Drawing.Size(1280, 768);
-            this.MinimumSize = new System.Drawing.Size(1280, 766);
+            this.MinimumSize = new System.Drawing.Size(1280, 736);
             this.Name = "frmNotasSolicitud";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Notas";
+            this.TopMost = false;
             this.Load += new System.EventHandler(this.frmNotasSolicitud_Load);
             this.PanelMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Notas)).EndInit();

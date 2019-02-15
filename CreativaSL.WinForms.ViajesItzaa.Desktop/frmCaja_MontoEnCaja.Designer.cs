@@ -674,6 +674,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cerrar Caja - Monto Total de Caja";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmCaja_MontoEnCaja_Load);
             this.panelTitle_Creativa1.ResumeLayout(false);

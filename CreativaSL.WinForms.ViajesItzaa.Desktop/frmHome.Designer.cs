@@ -733,7 +733,7 @@
             this.tsEmpleados,
             this.tsSolicitudesXEmpresa});
             this.MenuStripReportes.Name = "MenuStripEscaneos";
-            this.MenuStripReportes.Size = new System.Drawing.Size(318, 212);
+            this.MenuStripReportes.Size = new System.Drawing.Size(316, 212);
             this.MenuStripReportes.Text = "Escaneos";
             // 
             // tsCaja
@@ -742,7 +742,7 @@
             this.tsCaja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tsCaja.Image = global::CreativaSL.WinForms.ViajesItzaa.Desktop.Properties.Resources._13reporte;
             this.tsCaja.Name = "tsCaja";
-            this.tsCaja.Size = new System.Drawing.Size(317, 26);
+            this.tsCaja.Size = new System.Drawing.Size(315, 26);
             this.tsCaja.Tag = "5";
             this.tsCaja.Text = "Caja";
             this.tsCaja.Click += new System.EventHandler(this.tsCaja_Click);
@@ -753,7 +753,7 @@
             this.tsRecursos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tsRecursos.Image = global::CreativaSL.WinForms.ViajesItzaa.Desktop.Properties.Resources._13reporte;
             this.tsRecursos.Name = "tsRecursos";
-            this.tsRecursos.Size = new System.Drawing.Size(317, 26);
+            this.tsRecursos.Size = new System.Drawing.Size(315, 26);
             this.tsRecursos.Tag = "6";
             this.tsRecursos.Text = "Recursos";
             this.tsRecursos.Click += new System.EventHandler(this.tsCaja_Click);
@@ -764,7 +764,7 @@
             this.tsSolicitudesRecibidas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tsSolicitudesRecibidas.Image = global::CreativaSL.WinForms.ViajesItzaa.Desktop.Properties.Resources._13reporte;
             this.tsSolicitudesRecibidas.Name = "tsSolicitudesRecibidas";
-            this.tsSolicitudesRecibidas.Size = new System.Drawing.Size(317, 26);
+            this.tsSolicitudesRecibidas.Size = new System.Drawing.Size(315, 26);
             this.tsSolicitudesRecibidas.Tag = "1";
             this.tsSolicitudesRecibidas.Text = "Solicitudes Recibidas";
             this.tsSolicitudesRecibidas.Click += new System.EventHandler(this.tsCaja_Click);
@@ -775,7 +775,7 @@
             this.tsSolicitudesTramite.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tsSolicitudesTramite.Image = global::CreativaSL.WinForms.ViajesItzaa.Desktop.Properties.Resources._13reporte;
             this.tsSolicitudesTramite.Name = "tsSolicitudesTramite";
-            this.tsSolicitudesTramite.Size = new System.Drawing.Size(317, 26);
+            this.tsSolicitudesTramite.Size = new System.Drawing.Size(315, 26);
             this.tsSolicitudesTramite.Tag = "3";
             this.tsSolicitudesTramite.Text = "Solicitudes en Trámite";
             this.tsSolicitudesTramite.Click += new System.EventHandler(this.tsCaja_Click);
@@ -786,7 +786,7 @@
             this.tsSolicitudesCanceladas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tsSolicitudesCanceladas.Image = global::CreativaSL.WinForms.ViajesItzaa.Desktop.Properties.Resources._13reporte;
             this.tsSolicitudesCanceladas.Name = "tsSolicitudesCanceladas";
-            this.tsSolicitudesCanceladas.Size = new System.Drawing.Size(317, 26);
+            this.tsSolicitudesCanceladas.Size = new System.Drawing.Size(315, 26);
             this.tsSolicitudesCanceladas.Tag = "2";
             this.tsSolicitudesCanceladas.Text = "Solicitudes Canceladas";
             this.tsSolicitudesCanceladas.Click += new System.EventHandler(this.tsCaja_Click);
@@ -797,7 +797,7 @@
             this.tsPaquetesVendidos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tsPaquetesVendidos.Image = global::CreativaSL.WinForms.ViajesItzaa.Desktop.Properties.Resources._13reporte;
             this.tsPaquetesVendidos.Name = "tsPaquetesVendidos";
-            this.tsPaquetesVendidos.Size = new System.Drawing.Size(317, 26);
+            this.tsPaquetesVendidos.Size = new System.Drawing.Size(315, 26);
             this.tsPaquetesVendidos.Tag = "4";
             this.tsPaquetesVendidos.Text = "Paquetes / Tours más Vendidos";
             this.tsPaquetesVendidos.Click += new System.EventHandler(this.tsCaja_Click);
@@ -808,7 +808,7 @@
             this.tsEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tsEmpleados.Image = global::CreativaSL.WinForms.ViajesItzaa.Desktop.Properties.Resources._13reporte;
             this.tsEmpleados.Name = "tsEmpleados";
-            this.tsEmpleados.Size = new System.Drawing.Size(317, 26);
+            this.tsEmpleados.Size = new System.Drawing.Size(315, 26);
             this.tsEmpleados.Tag = "7";
             this.tsEmpleados.Text = "Totales de empleados";
             this.tsEmpleados.Click += new System.EventHandler(this.tsCaja_Click);
@@ -819,7 +819,7 @@
             this.tsSolicitudesXEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tsSolicitudesXEmpresa.Image = global::CreativaSL.WinForms.ViajesItzaa.Desktop.Properties.Resources._13reporte;
             this.tsSolicitudesXEmpresa.Name = "tsSolicitudesXEmpresa";
-            this.tsSolicitudesXEmpresa.Size = new System.Drawing.Size(317, 26);
+            this.tsSolicitudesXEmpresa.Size = new System.Drawing.Size(315, 26);
             this.tsSolicitudesXEmpresa.Tag = "9";
             this.tsSolicitudesXEmpresa.Text = "Solicitudes por empresa";
             this.tsSolicitudesXEmpresa.Click += new System.EventHandler(this.tsCaja_Click);
@@ -833,10 +833,11 @@
             this.Controls.Add(this.panelGeneral);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.MaximizeBox = true;
-            this.MinimumSize = new System.Drawing.Size(1280, 766);
+            this.MinimumSize = new System.Drawing.Size(1280, 736);
             this.Name = "frmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.Load += new System.EventHandler(this.frmHome_Load);
             this.panelGeneral.ResumeLayout(false);
             this.panelCentral.ResumeLayout(false);

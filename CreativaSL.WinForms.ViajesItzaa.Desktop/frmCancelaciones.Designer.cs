@@ -343,6 +343,7 @@
             this.Name = "frmCancelaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmCancelaciones_Load);
             this.panel1.ResumeLayout(false);

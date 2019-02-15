@@ -736,7 +736,7 @@
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.MaximizeBox = true;
-            this.MinimumSize = new System.Drawing.Size(1280, 766);
+            this.MinimumSize = new System.Drawing.Size(1280, 736);
             this.Name = "frmNuevaCotizacion";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

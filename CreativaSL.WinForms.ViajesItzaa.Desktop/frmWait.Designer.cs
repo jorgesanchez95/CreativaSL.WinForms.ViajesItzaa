@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelTitle_Creativa1 = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.Progreso = new System.Windows.Forms.ProgressBar();
             this.lblPorcentaje = new System.Windows.Forms.Label();
+            this.Progreso = new System.Windows.Forms.ProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelTitle_Creativa1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,24 +54,6 @@
             this.panelTitle_Creativa1.Title = "";
             this.panelTitle_Creativa1.TitleColor = System.Drawing.Color.LightBlue;
             // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(362, 48);
-            this.label1.TabIndex = 0;
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Progreso
-            // 
-            this.Progreso.Location = new System.Drawing.Point(67, 80);
-            this.Progreso.Name = "Progreso";
-            this.Progreso.Size = new System.Drawing.Size(242, 23);
-            this.Progreso.TabIndex = 1;
-            // 
             // lblPorcentaje
             // 
             this.lblPorcentaje.BackColor = System.Drawing.Color.Transparent;
@@ -84,6 +66,24 @@
             this.lblPorcentaje.Text = "0 %";
             this.lblPorcentaje.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Progreso
+            // 
+            this.Progreso.Location = new System.Drawing.Point(67, 80);
+            this.Progreso.Name = "Progreso";
+            this.Progreso.Size = new System.Drawing.Size(242, 23);
+            this.Progreso.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(362, 48);
+            this.label1.TabIndex = 0;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmWait
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -93,6 +93,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmWait";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmWait_Load);
             this.panelTitle_Creativa1.ResumeLayout(false);

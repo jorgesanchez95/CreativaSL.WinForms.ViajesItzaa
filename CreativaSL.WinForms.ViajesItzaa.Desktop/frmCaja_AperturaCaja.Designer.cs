@@ -616,6 +616,7 @@
             this.Name = "frmCaja_AperturaCaja";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Apertura de Caja";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmCaja_AperturaCaja_Load);
             this.panel_Creativa1.ResumeLayout(false);

@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelTitle_Creativa1 = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
             this.panel6 = new System.Windows.Forms.Panel();
@@ -41,10 +40,10 @@
             this.tpNotificaciones2 = new System.Windows.Forms.TabPage();
             this.dgvNotificaciones02 = new System.Windows.Forms.DataGridView();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panelTitle_Creativa2 = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
             this.btnCancelar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panelTitle_Creativa1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -53,6 +52,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvNotificaciones01)).BeginInit();
             this.tpNotificaciones2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNotificaciones02)).BeginInit();
+            this.panel2.SuspendLayout();
             this.panelTitle_Creativa2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,15 +65,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1264, 662);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panelTitle_Creativa2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 577);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1264, 85);
-            this.panel2.TabIndex = 0;
             // 
             // panel3
             // 
@@ -194,6 +185,15 @@
             this.panel5.Size = new System.Drawing.Size(1264, 20);
             this.panel5.TabIndex = 0;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panelTitle_Creativa2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 577);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1264, 85);
+            this.panel2.TabIndex = 0;
+            // 
             // panelTitle_Creativa2
             // 
             this.panelTitle_Creativa2.BackColor = System.Drawing.Color.White;
@@ -253,10 +253,10 @@
             this.Name = "frmNotificaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmNotificaciones_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panelTitle_Creativa1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
@@ -265,6 +265,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvNotificaciones01)).EndInit();
             this.tpNotificaciones2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNotificaciones02)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.panelTitle_Creativa2.ResumeLayout(false);
             this.ResumeLayout(false);
 

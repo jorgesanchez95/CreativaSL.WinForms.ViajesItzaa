@@ -59,7 +59,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(634, 422);
+            this.panel1.Size = new System.Drawing.Size(634, 421);
             this.panel1.TabIndex = 0;
             // 
             // panelObservaciones
@@ -73,7 +73,7 @@
             this.panelObservaciones.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.panelObservaciones.Location = new System.Drawing.Point(0, 100);
             this.panelObservaciones.Name = "panelObservaciones";
-            this.panelObservaciones.Size = new System.Drawing.Size(634, 237);
+            this.panelObservaciones.Size = new System.Drawing.Size(634, 236);
             this.panelObservaciones.SizeLine = 3;
             this.panelObservaciones.SizeTitle = 30;
             this.panelObservaciones.TabIndex = 1;
@@ -105,7 +105,7 @@
             // 
             this.panel3.Controls.Add(this.panelTitle_Creativa3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 337);
+            this.panel3.Location = new System.Drawing.Point(0, 336);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(634, 85);
             this.panel3.TabIndex = 1;
@@ -261,7 +261,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(634, 422);
+            this.ClientSize = new System.Drawing.Size(634, 421);
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -270,6 +270,7 @@
             this.Name = "frmElegirProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmElegirProducto_Load);
             this.panel1.ResumeLayout(false);

@@ -218,6 +218,7 @@
             this.Name = "frmDepositosRetiros";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Depositos y Retiros";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmDepositosRetiros_Load);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.frmDepositosRetiros_KeyUp);

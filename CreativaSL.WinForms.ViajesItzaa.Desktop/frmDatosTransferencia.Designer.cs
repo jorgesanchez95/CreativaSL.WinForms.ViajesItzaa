@@ -53,7 +53,7 @@
             this.panel_Creativa1.Controls.Add(this.btnCancelar);
             this.panel_Creativa1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel_Creativa1.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.panel_Creativa1.Location = new System.Drawing.Point(0, 227);
+            this.panel_Creativa1.Location = new System.Drawing.Point(0, 226);
             this.panel_Creativa1.Name = "panel_Creativa1";
             this.panel_Creativa1.ShowTitle = false;
             this.panel_Creativa1.Size = new System.Drawing.Size(584, 85);
@@ -159,7 +159,7 @@
             this.panelDeposito.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.panelDeposito.Location = new System.Drawing.Point(0, 0);
             this.panelDeposito.Name = "panelDeposito";
-            this.panelDeposito.Size = new System.Drawing.Size(584, 227);
+            this.panelDeposito.Size = new System.Drawing.Size(584, 226);
             this.panelDeposito.SizeLine = 3;
             this.panelDeposito.SizeTitle = 20;
             this.panelDeposito.TabIndex = 26;
@@ -234,7 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 312);
+            this.ClientSize = new System.Drawing.Size(584, 311);
             this.ControlBox = true;
             this.Controls.Add(this.panelDeposito);
             this.Controls.Add(this.panel_Creativa1);
@@ -245,6 +245,7 @@
             this.Name = "frmDatosTransferencia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmDatosCheque_Load);
             this.panel_Creativa1.ResumeLayout(false);

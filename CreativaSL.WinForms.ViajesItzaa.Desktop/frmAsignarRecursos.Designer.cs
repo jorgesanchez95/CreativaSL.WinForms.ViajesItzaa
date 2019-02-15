@@ -34,6 +34,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panelTitle_Creativa2 = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
+            this.txtRecursoHotel = new System.Windows.Forms.TextBox();
             this.cmbHotel = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -49,7 +50,6 @@
             this.txt_mensaje = new System.Windows.Forms.TextBox();
             this.btnRegresar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.btnGuardar = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.txtRecursoHotel = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -71,7 +71,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(684, 622);
+            this.panel1.Size = new System.Drawing.Size(684, 621);
             this.panel1.TabIndex = 0;
             // 
             // panel3
@@ -82,7 +82,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(684, 537);
+            this.panel3.Size = new System.Drawing.Size(684, 536);
             this.panel3.TabIndex = 1;
             // 
             // panel5
@@ -93,7 +93,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 180);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(684, 357);
+            this.panel5.Size = new System.Drawing.Size(684, 356);
             this.panel5.TabIndex = 1;
             // 
             // panel7
@@ -103,7 +103,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(0, 180);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(684, 177);
+            this.panel7.Size = new System.Drawing.Size(684, 176);
             this.panel7.TabIndex = 1;
             // 
             // panelTitle_Creativa2
@@ -119,12 +119,20 @@
             this.panelTitle_Creativa2.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.panelTitle_Creativa2.Location = new System.Drawing.Point(0, 0);
             this.panelTitle_Creativa2.Name = "panelTitle_Creativa2";
-            this.panelTitle_Creativa2.Size = new System.Drawing.Size(684, 177);
+            this.panelTitle_Creativa2.Size = new System.Drawing.Size(684, 176);
             this.panelTitle_Creativa2.SizeLine = 0;
             this.panelTitle_Creativa2.SizeTitle = 30;
             this.panelTitle_Creativa2.TabIndex = 3;
             this.panelTitle_Creativa2.Title = "Asignar Hotel";
             this.panelTitle_Creativa2.TitleColor = System.Drawing.Color.LightBlue;
+            // 
+            // txtRecursoHotel
+            // 
+            this.txtRecursoHotel.Location = new System.Drawing.Point(290, 80);
+            this.txtRecursoHotel.MaxLength = 100;
+            this.txtRecursoHotel.Name = "txtRecursoHotel";
+            this.txtRecursoHotel.Size = new System.Drawing.Size(300, 24);
+            this.txtRecursoHotel.TabIndex = 19;
             // 
             // cmbHotel
             // 
@@ -250,7 +258,7 @@
             this.panel2.AutoScroll = true;
             this.panel2.Controls.Add(this.panelTitle_Creativa1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 537);
+            this.panel2.Location = new System.Drawing.Point(0, 536);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(684, 85);
             this.panel2.TabIndex = 0;
@@ -356,19 +364,11 @@
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
-            // txtRecursoHotel
-            // 
-            this.txtRecursoHotel.Location = new System.Drawing.Point(290, 80);
-            this.txtRecursoHotel.MaxLength = 100;
-            this.txtRecursoHotel.Name = "txtRecursoHotel";
-            this.txtRecursoHotel.Size = new System.Drawing.Size(300, 24);
-            this.txtRecursoHotel.TabIndex = 19;
-            // 
             // frmAsignarRecursos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 622);
+            this.ClientSize = new System.Drawing.Size(684, 621);
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.MaximumSize = new System.Drawing.Size(700, 660);
@@ -377,6 +377,7 @@
             this.Name = "frmAsignarRecursos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmAsignarRecursos_Load);
             this.panel1.ResumeLayout(false);
