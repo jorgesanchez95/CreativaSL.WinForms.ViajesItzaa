@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C09E604E-948B-465F-81A2-60FB975DE32D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CreativaSL.Dll.ViajesItzaa.Negocio</RootNamespace>
+    <AssemblyName>CreativaSL.Dll.ViajesItzaa.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banco_Negocio.cs" />
+    <Compile Include="Caja_Negocio.cs" />
+    <Compile Include="CategoriaHotel_Negocio.cs" />
+    <Compile Include="Chofer_Negocio.cs" />
+    <Compile Include="Cliente_Negocio.cs" />
+    <Compile Include="Comun_Negocio.cs" />
+    <Compile Include="Cotizacion_Negocio.cs" />
+    <Compile Include="DepositoRetiro_Negocio.cs" />
+    <Compile Include="Empresa_Negocio.cs" />
+    <Compile Include="Estado_Negocio.cs" />
+    <Compile Include="Hotel_Negocio.cs" />
+    <Compile Include="Login_Negocio.cs" />
+    <Compile Include="LugarTuristico_Negocio.cs" />
+    <Compile Include="Municipio_Negocio.cs" />
+    <Compile Include="Nota_Negocio.cs" />
+    <Compile Include="Ocupacion_Negocio.cs" />
+    <Compile Include="OrdenPago_Negocio.cs" />
+    <Compile Include="Pago_Negocio.cs" />
+    <Compile Include="Pais_Negocio.cs" />
+    <Compile Include="Paquete_Negocio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solicitud_Negocio.cs" />
+    <Compile Include="Sucursal_Negocio.cs" />
+    <Compile Include="TipoDocumento_Negocio.cs" />
+    <Compile Include="TipoVehiculo_Negocio.cs" />
+    <Compile Include="Tour_Negocio.cs" />
+    <Compile Include="Usuario_Negocio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CreativaSL.Dll.ViajesItzaa.Datos\CreativaSL.Dll.ViajesItzaa.Datos.csproj">
+      <Project>{8c101f69-8435-492a-b6d7-b5a4836ccaa0}</Project>
+      <Name>CreativaSL.Dll.ViajesItzaa.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CreativaSL.Dll.ViajesItzaa.Global\CreativaSL.Dll.ViajesItzaa.Global.csproj">
+      <Project>{0ebb57fa-3bce-4741-940d-dfe5295c289f}</Project>
+      <Name>CreativaSL.Dll.ViajesItzaa.Global</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

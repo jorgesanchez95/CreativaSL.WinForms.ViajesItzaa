@@ -1,0 +1,3 @@
+1.- Imagen formas de pago debe estar en Imagenes/FormasPago/FormasPago.png (min 530px, 401px)
+2.- En el Procedimiento soCSLDB_get_Login, cambiar la url.
+3.- Cambiar los datos de correo del app.config (actualmente envía desde el correo de Sergio)

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C101F69-8435-492A-B6D7-B5A4836CCAA0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CreativaSL.Dll.ViajesItzaa.Datos</RootNamespace>
+    <AssemblyName>CreativaSL.Dll.ViajesItzaa.Datos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ApplicationBlocks.Data">
+      <HintPath>..\..\..\..\..\Desktop\CreativaSL.PuntoDeVenta\CreativaSL.dll.PuntoDeVenta.Datos\bin\Debug\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banco_Datos.cs" />
+    <Compile Include="Caja_Datos.cs" />
+    <Compile Include="CategoriaHotel_Datos.cs" />
+    <Compile Include="Chofer_Datos.cs" />
+    <Compile Include="Cliente_Datos.cs" />
+    <Compile Include="Comun_Datos.cs" />
+    <Compile Include="Cotizacion_Datos.cs" />
+    <Compile Include="DepositoRetiro_Datos.cs" />
+    <Compile Include="Empresa_Datos.cs" />
+    <Compile Include="Estado_Datos.cs" />
+    <Compile Include="Hotel_Datos.cs" />
+    <Compile Include="Login_Datos.cs" />
+    <Compile Include="LugarTuristico_Datos.cs" />
+    <Compile Include="Municipio_Datos.cs" />
+    <Compile Include="Nota_Datos.cs" />
+    <Compile Include="Ocupacion_Datos.cs" />
+    <Compile Include="OrdenPago_Datos.cs" />
+    <Compile Include="Pago_Datos.cs" />
+    <Compile Include="Pais_Datos.cs" />
+    <Compile Include="Paquete_Datos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solicitud_Datos.cs" />
+    <Compile Include="Sucursal_Datos.cs" />
+    <Compile Include="TipoDocumento_Datos.cs" />
+    <Compile Include="TipoVehiculo_Datos.cs" />
+    <Compile Include="Tour_Datos.cs" />
+    <Compile Include="Usuario_Datos.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CreativaSL.Dll.ViajesItzaa.Global\CreativaSL.Dll.ViajesItzaa.Global.csproj">
+      <Project>{0ebb57fa-3bce-4741-940d-dfe5295c289f}</Project>
+      <Name>CreativaSL.Dll.ViajesItzaa.Global</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
