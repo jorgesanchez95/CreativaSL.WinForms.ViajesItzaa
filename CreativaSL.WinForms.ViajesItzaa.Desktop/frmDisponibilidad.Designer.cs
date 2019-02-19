@@ -56,7 +56,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(414, 322);
+            this.panel1.Size = new System.Drawing.Size(414, 321);
             this.panel1.TabIndex = 0;
             // 
             // panel3
@@ -65,7 +65,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(414, 237);
+            this.panel3.Size = new System.Drawing.Size(414, 236);
             this.panel3.TabIndex = 1;
             // 
             // panelTitle_Creativa2
@@ -80,7 +80,7 @@
             this.panelTitle_Creativa2.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.panelTitle_Creativa2.Location = new System.Drawing.Point(0, 0);
             this.panelTitle_Creativa2.Name = "panelTitle_Creativa2";
-            this.panelTitle_Creativa2.Size = new System.Drawing.Size(414, 237);
+            this.panelTitle_Creativa2.Size = new System.Drawing.Size(414, 236);
             this.panelTitle_Creativa2.SizeLine = 3;
             this.panelTitle_Creativa2.SizeTitle = 30;
             this.panelTitle_Creativa2.TabIndex = 0;
@@ -97,7 +97,7 @@
             this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel5.Location = new System.Drawing.Point(0, 33);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(414, 204);
+            this.panel5.Size = new System.Drawing.Size(414, 203);
             this.panel5.TabIndex = 1;
             // 
             // txtDescripcion
@@ -146,7 +146,7 @@
             // 
             this.panel2.Controls.Add(this.panelTitle_Creativa1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 237);
+            this.panel2.Location = new System.Drawing.Point(0, 236);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(414, 85);
             this.panel2.TabIndex = 0;
@@ -239,7 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 322);
+            this.ClientSize = new System.Drawing.Size(414, 321);
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -250,6 +250,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmDisponibilidad_Load);
             this.panel1.ResumeLayout(false);

@@ -59,7 +59,7 @@
             this.panel_Creativa1.Controls.Add(this.btnCancelar);
             this.panel_Creativa1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel_Creativa1.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.panel_Creativa1.Location = new System.Drawing.Point(0, 327);
+            this.panel_Creativa1.Location = new System.Drawing.Point(0, 326);
             this.panel_Creativa1.Name = "panel_Creativa1";
             this.panel_Creativa1.ShowTitle = false;
             this.panel_Creativa1.Size = new System.Drawing.Size(684, 85);
@@ -172,7 +172,7 @@
             this.panelDeposito.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.panelDeposito.Location = new System.Drawing.Point(0, 0);
             this.panelDeposito.Name = "panelDeposito";
-            this.panelDeposito.Size = new System.Drawing.Size(684, 327);
+            this.panelDeposito.Size = new System.Drawing.Size(684, 326);
             this.panelDeposito.SizeLine = 3;
             this.panelDeposito.SizeTitle = 20;
             this.panelDeposito.TabIndex = 26;
@@ -304,7 +304,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(694, 444);
+            this.ClientSize = new System.Drawing.Size(684, 411);
             this.ControlBox = true;
             this.Controls.Add(this.panelDeposito);
             this.Controls.Add(this.panel_Creativa1);
@@ -315,6 +315,7 @@
             this.Name = "frmDatosTarjeta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmDatosTarjeta_Load);
             this.panel_Creativa1.ResumeLayout(false);

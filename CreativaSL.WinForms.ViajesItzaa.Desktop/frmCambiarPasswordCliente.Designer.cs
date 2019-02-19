@@ -30,21 +30,21 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelDatos = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
             this.label6 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.PanelBotones = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
             this.btnAceptar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.btnCancelar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.txt_mensaje = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panelDatos.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.PanelBotones.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,18 +56,8 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(584, 247);
+            this.panel1.Size = new System.Drawing.Size(584, 246);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.AutoScroll = true;
-            this.panel2.Controls.Add(this.PanelBotones);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 162);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(584, 85);
-            this.panel2.TabIndex = 0;
             // 
             // panel3
             // 
@@ -76,7 +66,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(584, 162);
+            this.panel3.Size = new System.Drawing.Size(584, 161);
             this.panel3.TabIndex = 1;
             // 
             // panelDatos
@@ -92,7 +82,7 @@
             this.panelDatos.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.panelDatos.Location = new System.Drawing.Point(0, 0);
             this.panelDatos.Name = "panelDatos";
-            this.panelDatos.Size = new System.Drawing.Size(584, 162);
+            this.panelDatos.Size = new System.Drawing.Size(584, 161);
             this.panelDatos.SizeLine = 3;
             this.panelDatos.SizeTitle = 20;
             this.panelDatos.TabIndex = 12;
@@ -141,6 +131,16 @@
             this.lblNombre.TabIndex = 102;
             this.lblNombre.Text = "Cliente:";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panel2
+            // 
+            this.panel2.AutoScroll = true;
+            this.panel2.Controls.Add(this.PanelBotones);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 161);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(584, 85);
+            this.panel2.TabIndex = 0;
             // 
             // PanelBotones
             // 
@@ -247,7 +247,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(584, 247);
+            this.ClientSize = new System.Drawing.Size(584, 246);
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.MaximumSize = new System.Drawing.Size(600, 285);
@@ -256,13 +256,14 @@
             this.Name = "frmCambiarPasswordCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmCambiarPasswordCliente_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panelDatos.ResumeLayout(false);
             this.panelDatos.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.PanelBotones.ResumeLayout(false);
             this.PanelBotones.PerformLayout();
             this.ResumeLayout(false);

@@ -925,6 +925,7 @@
             this.Name = "frmDetalleSolicitud";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.Load += new System.EventHandler(this.frmDetalleSolicitud_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

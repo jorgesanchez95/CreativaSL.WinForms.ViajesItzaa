@@ -220,6 +220,7 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.frmLogin_KeyUp);

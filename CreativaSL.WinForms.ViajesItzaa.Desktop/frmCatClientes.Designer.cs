@@ -602,10 +602,11 @@
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.MaximizeBox = true;
-            this.MinimumSize = new System.Drawing.Size(1280, 766);
+            this.MinimumSize = new System.Drawing.Size(1280, 736);
             this.Name = "frmCatClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
+            this.TopMost = false;
             this.Load += new System.EventHandler(this.frmCatClientes_Load);
             this.PanelMenu.ResumeLayout(false);
             this.PanelMenu.PerformLayout();

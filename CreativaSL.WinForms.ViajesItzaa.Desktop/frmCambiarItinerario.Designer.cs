@@ -109,6 +109,7 @@
             this.Name = "frmCambiarItinerario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCambiarItinerario";
+            this.TopMost = false;
             this.Load += new System.EventHandler(this.frmCambiarItinerario_Load);
             this.panelPrincipal.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

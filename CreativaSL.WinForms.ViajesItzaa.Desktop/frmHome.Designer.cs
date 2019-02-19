@@ -833,7 +833,7 @@
             this.Controls.Add(this.panelGeneral);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.MaximizeBox = true;
-            this.MinimumSize = new System.Drawing.Size(1280, 726);
+            this.MinimumSize = new System.Drawing.Size(1280, 736);
             this.Name = "frmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";

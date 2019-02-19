@@ -43,9 +43,9 @@
             this.btnModificarLugar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelTitle_Creativa3 = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
+            this.txt_mensaje = new System.Windows.Forms.TextBox();
             this.btnRegresar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.btnContinuar = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.txt_mensaje = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -296,6 +296,22 @@
             this.panelTitle_Creativa3.Title = "";
             this.panelTitle_Creativa3.TitleColor = System.Drawing.Color.LightBlue;
             // 
+            // txt_mensaje
+            // 
+            this.txt_mensaje.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txt_mensaje.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_mensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_mensaje.Location = new System.Drawing.Point(33, 8);
+            this.txt_mensaje.Multiline = true;
+            this.txt_mensaje.Name = "txt_mensaje";
+            this.txt_mensaje.ReadOnly = true;
+            this.txt_mensaje.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_mensaje.Size = new System.Drawing.Size(372, 70);
+            this.txt_mensaje.TabIndex = 33;
+            this.txt_mensaje.TabStop = false;
+            this.txt_mensaje.Text = "Ocurrió un Error";
+            this.txt_mensaje.Visible = false;
+            // 
             // btnRegresar
             // 
             this.btnRegresar.BackColor = System.Drawing.Color.SkyBlue;
@@ -362,22 +378,6 @@
             this.btnContinuar.UseVisualStyleBackColor = false;
             this.btnContinuar.Click += new System.EventHandler(this.btnContinuar_Click);
             // 
-            // txt_mensaje
-            // 
-            this.txt_mensaje.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.txt_mensaje.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_mensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_mensaje.Location = new System.Drawing.Point(33, 8);
-            this.txt_mensaje.Multiline = true;
-            this.txt_mensaje.Name = "txt_mensaje";
-            this.txt_mensaje.ReadOnly = true;
-            this.txt_mensaje.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txt_mensaje.Size = new System.Drawing.Size(372, 70);
-            this.txt_mensaje.TabIndex = 33;
-            this.txt_mensaje.TabStop = false;
-            this.txt_mensaje.Text = "Ocurrió un Error";
-            this.txt_mensaje.Visible = false;
-            // 
             // frmItinerario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -388,6 +388,7 @@
             this.Name = "frmItinerario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmItinerario_Load);
             this.panel1.ResumeLayout(false);

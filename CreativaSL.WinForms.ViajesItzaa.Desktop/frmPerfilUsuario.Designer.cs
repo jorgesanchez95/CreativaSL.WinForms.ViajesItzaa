@@ -357,6 +357,7 @@
             this.Name = "frmPerfilUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Perfil de Usuario - Sistema Paquetería V1.0";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmPerfilUsuario_Load);
             this.panel_Usuario.ResumeLayout(false);

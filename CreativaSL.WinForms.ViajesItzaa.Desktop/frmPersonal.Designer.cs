@@ -30,24 +30,24 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panelTitle_Creativa1 = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
-            this.txt_mensaje = new System.Windows.Forms.TextBox();
-            this.btnRegresar = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.btnGuardar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.panelTitle_Creativa2 = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
+            this.txtFolioSolicitud = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtUsuarioActual = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbUsuario = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtFolioSolicitud = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelTitle_Creativa1 = new CreativaSL.LibControls.WinForms.PanelTitle_Creativa(this.components);
+            this.txt_mensaje = new System.Windows.Forms.TextBox();
+            this.btnRegresar = new CreativaSL.LibControls.WinForms.Button_Creativa();
+            this.btnGuardar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panelTitle_Creativa1.SuspendLayout();
             this.panelTitle_Creativa2.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panelTitle_Creativa1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -57,18 +57,8 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(684, 362);
+            this.panel1.Size = new System.Drawing.Size(684, 361);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.AutoScroll = true;
-            this.panel2.Controls.Add(this.panelTitle_Creativa1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 277);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(684, 85);
-            this.panel2.TabIndex = 0;
             // 
             // panel3
             // 
@@ -77,8 +67,100 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(684, 277);
+            this.panel3.Size = new System.Drawing.Size(684, 276);
             this.panel3.TabIndex = 1;
+            // 
+            // panelTitle_Creativa2
+            // 
+            this.panelTitle_Creativa2.AutoScroll = true;
+            this.panelTitle_Creativa2.BackColor = System.Drawing.Color.White;
+            this.panelTitle_Creativa2.BorderColor = System.Drawing.Color.LightSkyBlue;
+            this.panelTitle_Creativa2.Controls.Add(this.txtFolioSolicitud);
+            this.panelTitle_Creativa2.Controls.Add(this.label1);
+            this.panelTitle_Creativa2.Controls.Add(this.txtUsuarioActual);
+            this.panelTitle_Creativa2.Controls.Add(this.label5);
+            this.panelTitle_Creativa2.Controls.Add(this.cmbUsuario);
+            this.panelTitle_Creativa2.Controls.Add(this.label2);
+            this.panelTitle_Creativa2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelTitle_Creativa2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelTitle_Creativa2.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.panelTitle_Creativa2.Location = new System.Drawing.Point(0, 0);
+            this.panelTitle_Creativa2.Name = "panelTitle_Creativa2";
+            this.panelTitle_Creativa2.Size = new System.Drawing.Size(684, 276);
+            this.panelTitle_Creativa2.SizeLine = 3;
+            this.panelTitle_Creativa2.SizeTitle = 30;
+            this.panelTitle_Creativa2.TabIndex = 2;
+            this.panelTitle_Creativa2.Title = "SELECCIONE EL USUARIO QUE ATENDERÁ LA SOLICITUD";
+            this.panelTitle_Creativa2.TitleColor = System.Drawing.Color.LightBlue;
+            // 
+            // txtFolioSolicitud
+            // 
+            this.txtFolioSolicitud.Location = new System.Drawing.Point(250, 70);
+            this.txtFolioSolicitud.MaxLength = 4;
+            this.txtFolioSolicitud.Name = "txtFolioSolicitud";
+            this.txtFolioSolicitud.ReadOnly = true;
+            this.txtFolioSolicitud.Size = new System.Drawing.Size(200, 24);
+            this.txtFolioSolicitud.TabIndex = 33;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(50, 70);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(180, 24);
+            this.label1.TabIndex = 34;
+            this.label1.Text = "Folio de Solicitud:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtUsuarioActual
+            // 
+            this.txtUsuarioActual.Location = new System.Drawing.Point(250, 140);
+            this.txtUsuarioActual.MaxLength = 4;
+            this.txtUsuarioActual.Name = "txtUsuarioActual";
+            this.txtUsuarioActual.ReadOnly = true;
+            this.txtUsuarioActual.Size = new System.Drawing.Size(350, 24);
+            this.txtUsuarioActual.TabIndex = 30;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(50, 140);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(180, 24);
+            this.label5.TabIndex = 32;
+            this.label5.Text = "Empleado actual:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // cmbUsuario
+            // 
+            this.cmbUsuario.FormattingEnabled = true;
+            this.cmbUsuario.Location = new System.Drawing.Point(250, 210);
+            this.cmbUsuario.Name = "cmbUsuario";
+            this.cmbUsuario.Size = new System.Drawing.Size(350, 26);
+            this.cmbUsuario.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(50, 210);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(180, 26);
+            this.label2.TabIndex = 31;
+            this.label2.Text = "Empleado nuevo:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panel2
+            // 
+            this.panel2.AutoScroll = true;
+            this.panel2.Controls.Add(this.panelTitle_Creativa1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 276);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(684, 85);
+            this.panel2.TabIndex = 0;
             // 
             // panelTitle_Creativa1
             // 
@@ -181,93 +263,11 @@
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
-            // panelTitle_Creativa2
-            // 
-            this.panelTitle_Creativa2.AutoScroll = true;
-            this.panelTitle_Creativa2.BackColor = System.Drawing.Color.White;
-            this.panelTitle_Creativa2.BorderColor = System.Drawing.Color.LightSkyBlue;
-            this.panelTitle_Creativa2.Controls.Add(this.txtFolioSolicitud);
-            this.panelTitle_Creativa2.Controls.Add(this.label1);
-            this.panelTitle_Creativa2.Controls.Add(this.txtUsuarioActual);
-            this.panelTitle_Creativa2.Controls.Add(this.label5);
-            this.panelTitle_Creativa2.Controls.Add(this.cmbUsuario);
-            this.panelTitle_Creativa2.Controls.Add(this.label2);
-            this.panelTitle_Creativa2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelTitle_Creativa2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelTitle_Creativa2.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.panelTitle_Creativa2.Location = new System.Drawing.Point(0, 0);
-            this.panelTitle_Creativa2.Name = "panelTitle_Creativa2";
-            this.panelTitle_Creativa2.Size = new System.Drawing.Size(684, 277);
-            this.panelTitle_Creativa2.SizeLine = 3;
-            this.panelTitle_Creativa2.SizeTitle = 30;
-            this.panelTitle_Creativa2.TabIndex = 2;
-            this.panelTitle_Creativa2.Title = "SELECCIONE EL USUARIO QUE ATENDERÁ LA SOLICITUD";
-            this.panelTitle_Creativa2.TitleColor = System.Drawing.Color.LightBlue;
-            // 
-            // txtUsuarioActual
-            // 
-            this.txtUsuarioActual.Location = new System.Drawing.Point(250, 140);
-            this.txtUsuarioActual.MaxLength = 4;
-            this.txtUsuarioActual.Name = "txtUsuarioActual";
-            this.txtUsuarioActual.ReadOnly = true;
-            this.txtUsuarioActual.Size = new System.Drawing.Size(350, 24);
-            this.txtUsuarioActual.TabIndex = 30;
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(50, 140);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(180, 24);
-            this.label5.TabIndex = 32;
-            this.label5.Text = "Empleado actual:";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // cmbUsuario
-            // 
-            this.cmbUsuario.FormattingEnabled = true;
-            this.cmbUsuario.Location = new System.Drawing.Point(250, 210);
-            this.cmbUsuario.Name = "cmbUsuario";
-            this.cmbUsuario.Size = new System.Drawing.Size(350, 26);
-            this.cmbUsuario.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(50, 210);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(180, 26);
-            this.label2.TabIndex = 31;
-            this.label2.Text = "Empleado nuevo:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // txtFolioSolicitud
-            // 
-            this.txtFolioSolicitud.Location = new System.Drawing.Point(250, 70);
-            this.txtFolioSolicitud.MaxLength = 4;
-            this.txtFolioSolicitud.Name = "txtFolioSolicitud";
-            this.txtFolioSolicitud.ReadOnly = true;
-            this.txtFolioSolicitud.Size = new System.Drawing.Size(200, 24);
-            this.txtFolioSolicitud.TabIndex = 33;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(50, 70);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 24);
-            this.label1.TabIndex = 34;
-            this.label1.Text = "Folio de Solicitud:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // frmPersonal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 362);
+            this.ClientSize = new System.Drawing.Size(684, 361);
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.MaximumSize = new System.Drawing.Size(700, 400);
@@ -276,15 +276,16 @@
             this.Name = "frmPersonal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmPersonal_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panelTitle_Creativa1.ResumeLayout(false);
-            this.panelTitle_Creativa1.PerformLayout();
             this.panelTitle_Creativa2.ResumeLayout(false);
             this.panelTitle_Creativa2.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panelTitle_Creativa1.ResumeLayout(false);
+            this.panelTitle_Creativa1.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -73,7 +73,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(634, 422);
+            this.panel1.Size = new System.Drawing.Size(634, 421);
             this.panel1.TabIndex = 0;
             // 
             // panel4
@@ -82,7 +82,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 204);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(634, 133);
+            this.panel4.Size = new System.Drawing.Size(634, 132);
             this.panel4.TabIndex = 2;
             // 
             // panelTitle_Creativa2
@@ -97,7 +97,7 @@
             this.panelTitle_Creativa2.LinearGradientModeBgk = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.panelTitle_Creativa2.Location = new System.Drawing.Point(0, 0);
             this.panelTitle_Creativa2.Name = "panelTitle_Creativa2";
-            this.panelTitle_Creativa2.Size = new System.Drawing.Size(634, 133);
+            this.panelTitle_Creativa2.Size = new System.Drawing.Size(634, 132);
             this.panelTitle_Creativa2.SizeLine = 3;
             this.panelTitle_Creativa2.SizeTitle = 0;
             this.panelTitle_Creativa2.TabIndex = 1;
@@ -155,7 +155,7 @@
             this.panel3.AutoScroll = true;
             this.panel3.Controls.Add(this.panelTitle_Creativa3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 337);
+            this.panel3.Location = new System.Drawing.Point(0, 336);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(634, 85);
             this.panel3.TabIndex = 1;
@@ -476,7 +476,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(634, 422);
+            this.ClientSize = new System.Drawing.Size(634, 421);
             this.ControlBox = true;
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -486,6 +486,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmElegirCliente_Load);
             this.panel1.ResumeLayout(false);

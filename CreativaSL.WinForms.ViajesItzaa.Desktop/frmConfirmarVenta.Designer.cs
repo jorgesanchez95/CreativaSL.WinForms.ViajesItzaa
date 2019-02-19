@@ -319,6 +319,7 @@
             this.Name = "frmConfirmarVenta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.frmConfirmarVenta_Load);
             this.panel1.ResumeLayout(false);

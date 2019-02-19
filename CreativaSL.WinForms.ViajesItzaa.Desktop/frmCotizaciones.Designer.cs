@@ -763,6 +763,7 @@
             this.Name = "frmCotizaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "";
+            this.TopMost = false;
             this.Load += new System.EventHandler(this.frmCotizaciones_Load);
             this.panelPrincipal.ResumeLayout(false);
             this.panelCentral.ResumeLayout(false);
