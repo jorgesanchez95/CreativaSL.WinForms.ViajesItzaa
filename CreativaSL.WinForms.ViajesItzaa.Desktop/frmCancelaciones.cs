@@ -103,8 +103,8 @@ namespace CreativaSL.WinForms.ViajesItzaa.Desktop
                         MessageBox.Show("Datos guardados correctamente.", Comun.CaptionSystem, MessageBoxButtons.OK, MessageBoxIcon.Information);
                         try
                         {
-                            this.bgwEnvioCorreo.RunWorkerAsync(Aux);
-                            Espere.ShowDialog();
+                            //this.bgwEnvioCorreo.RunWorkerAsync(Aux);
+                            //Espere.ShowDialog();
                         }
                         catch (Exception)
                         {

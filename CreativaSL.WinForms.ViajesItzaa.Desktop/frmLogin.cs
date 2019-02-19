@@ -330,18 +330,26 @@ namespace CreativaSL.WinForms.ViajesItzaa.Desktop
         {
             try
             {
-                ManagementObjectSearcher objMOS = new ManagementObjectSearcher("SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IPEnabled = 'TRUE'");
-                ManagementObjectCollection objMOC = objMOS.Get();
                 string MACAddress = String.Empty;
-                foreach (ManagementObject objMO in objMOC)
+                if (Convert.ToBoolean(ConfigurationManager.AppSettings.Get("strBanMac")))
                 {
-                    if (MACAddress == String.Empty)
+                    MACAddress = ConfigurationManager.AppSettings.Get("strMac");
+                }
+                else
+                {
+
+                    ManagementObjectSearcher objMOS = new ManagementObjectSearcher("SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IPEnabled = 'TRUE'");
+                    ManagementObjectCollection objMOC = objMOS.Get();
+                    foreach (ManagementObject objMO in objMOC)
                     {
-                        MACAddress = objMO["MacAddress"].ToString();
-                        break;
+                        if (MACAddress == String.Empty)
+                        {
+                            MACAddress = objMO["MacAddress"].ToString();
+                            break;
+                        }
+                        objMO.Dispose();
                     }
-                    objMO.Dispose();
-                }               
+                }
                 return MACAddress;
             }
             catch (Exception ex)

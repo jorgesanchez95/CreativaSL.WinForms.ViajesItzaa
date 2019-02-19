@@ -301,9 +301,9 @@ namespace CreativaSL.WinForms.ViajesItzaa.Desktop.ClasesAux
                 
                     foreach (DataGridViewRow Grid in actual.Rows)
                     {
-
+                        string Aux = Application.StartupPath + @"\Resources\TipoSolicitud\solicitud01.png";
                         switch (Convert.ToInt32(Grid.Cells[nameColValueTipo].Value))
-                        {
+                        {                        
                             case 1: Grid.Cells[nameColImageTipo].Value = resizeImage(Image.FromFile(Application.StartupPath + @"\Resources\TipoSolicitud\solicitud01.png"), new Size(20, 20));
                                 break;
                             case 2: Grid.Cells[nameColImageTipo].Value = resizeImage(Image.FromFile(Application.StartupPath + @"\Resources\TipoSolicitud\solicitud02.png"), new Size(20, 20));
